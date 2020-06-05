@@ -1,0 +1,17 @@
+New-ADUser string -AccountPassword SecureString -Name string -Surname string -DisplayName string -Description string
+
+
+New-ADUser Maxime -AccountPassword Maxime1234 -Name Dufour -Surname Maxime -DisplayName Maxime Dufour -Description test
+
+
+New-ADUser Maxime -accountpassword "Maxime1234" -name "Dufour"
+
+
+New-ADUser -Name "Jack Robinson" -GivenName "Jack" -Surname "Robinson" -SamAccountName "J.Robinson" 
+
+New-ADUser -Name "Jack Robinson" -GivenName "Jack" -Surname "Robinson" -SamAccountName "J.Robinson" -UserPrincipalName "JRobinson" 
+
+
+
+$SecurePassword = ConvertTo-SecureString -String Jack1234 -AsPlainText -Force
+New-ADUser -Name "Jack Robinson" -GivenName "Jack" -Surname "Robinson" -SamAccountName "J.Robinson" -UserPrincipalName "JRobinson" -AccountPassword $SecurePassword 
