@@ -1,15 +1,17 @@
-# Active-Directory-GUI
+# Active Directory GUI
 
-## Preview
+A C# Interface to run on a PC with an Active Directory Server (Recommended)
 
-### Home
-![Preview](https://image.noelshack.com/fichiers/2020/26/3/1592984155-ad.png)
+## Getting Started
 
-### Ajout utilisateurs
-![Preview](https://image.noelshack.com/fichiers/2020/26/3/1592984155-aduser.png)
+> Some of my commentary are in french, so I will probably translate it into english somedays ;-)
 
-### Ajout Groupes
-![Preview](https://image.noelshack.com/fichiers/2020/26/3/1592984155-adgroup.png)
+- The powershell script are for testing purpose. you can ignore it
 
-### Connexion à un Active Directory (AD-DS)
-![Preview](https://image.noelshack.com/fichiers/2020/26/3/1592984155-adpath.png)
+- I created multiple C# class for adding user, groups, etc... for code asthetic
+
+- Form GUI need to be refurnished and updated
+
+## Author
+
+- Heyimlulu
