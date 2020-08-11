@@ -4,7 +4,7 @@ A C# Interface to run on a PC to use with an Active Directory server (Recommende
 
 ## Getting Started
 
-### Prerequisite
+### Prerequisites
 
 You need to have
 
@@ -12,7 +12,7 @@ You need to have
 
 - An Active Directory server installed on your machine
 
-- A PC (or your server)
+- A PC
 
 > Some of my commentary are in french, so I will probably translate it into english somedays ;-)
 
@@ -25,3 +25,7 @@ Form GUI need to be refurnished and updated
 ## Author
 
 - Heyimlulu
+
+## License
+
+Licensed under the **MIT License**
