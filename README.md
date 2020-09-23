@@ -28,4 +28,4 @@ You need to have :
 
 ## License
 
-Licensed under the **MIT License**
+Licensed under the [AGPL-3.0 License](https://github.com/Heyimlulu/Active-Directory-GUI/blob/master/LICENSE)
